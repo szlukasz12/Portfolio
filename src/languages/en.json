@@ -1,0 +1,98 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "home": "Home",
+    "contact": "Contact",
+    "account": "Account",
+    "logout": "Logout",
+    "login": "Login",
+    "language": "Language",
+    "pl": "PL",
+    "en": "EN"
+  },
+  "AboutMe": "I am a developer with experience in creating and maintaining web applications as well as process automation. For the past three years, I have been working with Intrexx and Electron.js, developing applications that integrate with OData services. In Intrexx, I have implemented server-side logic and dynamic views using Groovy and Velocity, while in Electron I have developed desktop applications integrated with other platforms. I have practical skills in JavaScript, HTML, and CSS, as well as experience with React, Tailwind CSS, and TypeScript. Additionally, I create simple automations in Power Automate, and my personal projects allow me to further develop my practical skills and experiment with new technologies. I also have experience with platforms such as TrueNAS, Proxmox, and Docker, and I have been involved in setting up smaller services (e.g., Grafana) on Linux servers. I quickly learn new tools and technologies, which allows me to efficiently adapt to different environments and project requirements",
+  "about": {
+    "greeting": "Hi, my name is Łukasz"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "skillsCard": {
+    "showmore": "See more"
+  },
+  "apps": {
+    "title": "Applications",
+    "seeMore": "See more",
+    "viewApp": "View application",
+    "loginRequired": "Log in to see the application",
+    "secureInfo": "This app is secure and requires authentication."
+  },
+  "contact": {
+    "title": "Contact me",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "send": "Send",
+    "sending": "Sending",
+    "toast": {
+      "tooShort": "❌ Message too short (min 5 chars).",
+      "tooLong": "❌ Message too long (max 300 chars).",
+      "sent": "✅ Message sent successfully!",
+      "error": "❌ An error occurred while sending the message."
+    }
+  },
+  "contactbook": {
+    "addNew": "Add new contact",
+    "editContact": "Edit contact",
+    "addContact": "Add contact",
+    "loading": "Loading contacts...",
+    "namePlaceholder": "Name *",
+    "cityPlaceholder": "City *",
+    "phonePlaceholder": "Phone number *",
+    "clear": "Clear",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "editLoading": "Loading...",
+    "delete": "Delete",
+    "deleteLoading": "Deleting...",
+    "phoneValidationMessage": "Please enter a valid phone number (9 digits)."
+  },
+  "title": "Contact list",
+  "name": "Name",
+  "lastName": "Last Name",
+  "tel": "Phone",
+  "city": "City",
+  "show": "Show",
+  "hide": "Hide",
+  "AddS": "Add",
+  "AddH": "Hide form",
+  "ReloadNews": "Reload Contacts",
+  "InDevelopment": "Functionality in development...",
+  "MoreInDevelopment": "More features in development...",
+  "login": {
+    "placeholderLogin": "Login",
+    "placeholderPassword": "Password",
+    "loading": "Logging in...",
+    "cancel": "Cancel",
+    "submit": "Log in",
+    "testNote": "For testing please use the following account:",
+    "testUser": "Login: Test",
+    "testPassword": "Password: Test123!",
+    "failed": "Login failed. Incorrect login or password.",
+    "failed_attempts": "Login failed. Remaining attempts: ",
+    "failed_attempts_end": "Login failed. Maximum number of attempts reached. Please wait 15 minutes."
+  },
+  "Account":{
+    "Account": "Account",
+    "Information": "Information",
+    "Settings": "Settings",
+    "name": "Name, Last Name",
+    "email": "Email",
+    "address": "Address",
+    "joined": "Joined",
+    "language": "Language",
+    "SaveChanges": "Save Changes",
+    "Saving": "Saving..."
+  }
+}

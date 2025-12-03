@@ -1,0 +1,98 @@
+{
+  "header": {
+    "portfolio": "Portfolio",
+    "home": "Strona główna",
+    "contact": "Kontakt",
+    "account": "Konto",
+    "logout": "Wyloguj",
+    "login": "Zaloguj",
+    "language": "Język",
+    "pl": "PL",
+    "en": "EN"
+  },
+  "AboutMe": "Jestem programistą z doświadczeniem w tworzeniu i utrzymywaniu aplikacji webowych oraz automatyzacji procesów. Od trzech lat pracuję w środowisku Intrexx oraz Electron.js, tworząc i rozwijając aplikacje integrujące się z usługami OData. W Intrexx realizowałem logikę serwerową oraz dynamiczne widoki przy użyciu Groovy i Velocity, a w Electron rozwijałem aplikacje desktopowe integrujące się z innymi platformami. Posiadam praktyczne umiejętności w JavaScript, HTML i CSS, a także doświadczenie w React, Tailwind CSS i TypeScript. Dodatkowo tworzę proste automatyzacje w Power Automate, a projekty prywatne pozwalają mi rozwijać umiejętności praktyczne i eksperymentować z nowymi technologiami. Mam również doświadczenie z platformami takimi jak TrueNAS, Proxmox czy Docker, a także brałem udział w uruchamianiu mniejszych usług (np. Grafana) na serwerach Linux. Szybko przyswajam nowe narzędzia i rozwiązania, co pozwala mi sprawnie dostosowywać się do różnych środowisk i wymagań projektowych.",
+  "about": {
+    "greeting": "Cześć, mam na imię Łukasz"
+  },
+  "skills": {
+    "title": "Umiejętności"
+  },
+  "skillsCard": {
+    "showmore": "Zobacz więcej"
+  },
+  "apps": {
+    "title": "Aplikacje",
+    "seeMore": "Zobacz więcej",
+    "viewApp": "Zobacz aplikację",
+    "loginRequired": "Zaloguj się, aby zobaczyć aplikację",
+    "secureInfo": "Ta aplikacja jest zabezpieczona i wymaga uwierzytelnienia."
+  },
+  "contact": {
+    "title": "Skontaktuj się ze mną",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Wiadomość",
+    "send": "Wyślij",
+    "sending": "Wysyłanie",
+    "toast": {
+      "tooShort": "❌ Zbyt krótka wiadomość (min 5 znaków).",
+      "tooLong": "❌ Zbyt długa wiadomość (max 300 znaków).",
+      "sent": "✅ Wiadomość wysłana pomyślnie!",
+      "error": "❌ Wystąpił błąd podczas wysyłania wiadomości."
+    }
+  },
+  "contactbook": {
+    "addNew": "Dodaj nowy kontakt",
+    "editContact": "Edytuj kontakt",
+    "addContact": "Dodaj kontakt",
+    "loading": "Ładowanie kontaktów...",
+    "namePlaceholder": "Imię *",
+    "cityPlaceholder": "Miasto *",
+    "phonePlaceholder": "Nr telefonu *",
+    "clear": "Wyczyść",
+    "save": "Zapisz",
+    "saving": "Zapisywanie...",
+    "cancel": "Anuluj",
+    "edit": "Edytuj",
+    "editLoading": "Ładowanie...",
+    "delete": "Usuń",
+    "deleteLoading": "Usuwanie...",
+    "phoneValidationMessage": "Proszę wprowadzić poprawny numer telefonu (9 cyfr)."
+  },
+  "title": "Lista kontaktów",
+  "name": "Imię",
+  "lastName": "Nazwisko",
+  "tel": "Telefon",
+  "city": "Miasto",
+  "show": "Pokaż",
+  "hide": "Ukryj",
+  "AddS": "Dodaj",
+  "AddH": "Ukryj formularz",
+  "ReloadNews": "Odśwież kontakty",
+  "MoreInDevelopment": "Kolejne funkcjonalności w trakcie rozwoju...",
+  "InDevelopment": "Kolejne funkcjonalnoś w trakcie rozwoju...",
+  "login": {
+    "placeholderLogin": "Login",
+    "placeholderPassword": "Hasło",
+    "loading": "Logowanie...",
+    "cancel": "Anuluj",
+    "submit": "Zaloguj",
+    "testNote": "W celach testowych proszę logować się na podanego niżej użytkownika:",
+    "testUser": "Login: Test",
+    "testPassword": "Hasło: Test123!",
+    "failed": "Nie zalogowano. Błędny login lub hasło.",
+    "failed_attempts": "Nie zalogowano. Pozostało prób: ",
+    "failed_attempts_end": "Nie zalogowano. Osiągnięto maksymalną liczbę prób. Proszę odczekać 15 minut."
+  },
+  "Account":{
+    "Account": "Konto",
+    "Information": "Informacje",
+    "Settings": "Ustawienia",
+    "name": "Imię, Nazwisko",
+    "email": "Email",
+    "address": "Adres",
+    "joined": "Dołączył",
+    "language": "Język",
+    "SaveChanges": "Zapisz zmiany",
+    "Saving": "Zapisywanie..."
+  }
+}
