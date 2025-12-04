@@ -17,7 +17,7 @@ const Apps: React.FC = () =>{
     const parseApps = (links: DataFromApi[]): (ReactElement | string)[] => {
       return links.map((app) => {return (app.Role === user?.role) || user?.role == "admin" || app.Role == "global" ? (
             <div onClick={() => setOpenedApp({Name: app.Name, Link: app.Link, Description: app.Description, Secure: app.Secure, External: app.External, Zdj_name: app.Zdj_name})} key={app.Name} className="cursor-pointer bg-[#212236] p-4 hover:scale-105 transition-transform duration-300 rounded-2xl shadow shadow-gray-700 hover:shadow-lg hover:bg-slate-700 ">
-                <img src={`/png/${app.Zdj_name}.png`} alt={app.Name} className="w-auto  mx-auto mb-2" />
+                <img src={`/images/png/${app.Zdj_name}.png`} alt={app.Name} className="w-auto  mx-auto mb-2" />
                 <div className="flex justify-center gap-2"><h3 className="text-center text-white font-semibold text-2xl">{app.Name}</h3>{app.Secure ? <img src="/svg/shield.svg" alt="secure" onMouseOver={showInfo} onMouseLeave={showInfoHide}/> : null}</div>
                 <p className="text-left text-gray-400 text-sm mt-1 h-15 overflow-hidden">{app.Description}</p>
                 <div className="text-center text-gray-400 text-sm mt-1">
@@ -91,7 +91,7 @@ const Apps: React.FC = () =>{
             {openedApp !== null && (
               <div onClick={() => setOpenedApp(null)} className="fixed inset-0 bg-black/50 flex flex-col items-center justify-center z-30">
                 <div onClick={(e) => e.stopPropagation()} className="bg-slate-800 p-4 transition-transform duration-300 rounded-2xl shadow w-11/12 sm:w-2/6 sm:h-auto">
-                  <img src={`/png/${openedApp.Zdj_name}.png`} alt={openedApp.Zdj_name} className="w-auto sm:w-3/4 mx-auto mb-2" />
+                  <img src={`/images/png/${openedApp.Zdj_name}.png`} alt={openedApp.Zdj_name} className="w-auto sm:w-3/4 mx-auto mb-2" />
                   <div className="flex justify-center gap-2"><h3 className="text-center text-white font-semibold md:text-2xl">{openedApp.Name}</h3>{openedApp.Secure ? <img src="/svg/shield.svg" alt="secure" onMouseOver={showInfo} onMouseLeave={showInfoHide}/> : null}</div>
                   <p className="text-center text-gray-400 mt-1 md:text-lg w-full">{openedApp.Description}</p>
                   <div className="w-auto flex justify-center items-center">

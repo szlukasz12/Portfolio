@@ -12,12 +12,7 @@ export default defineConfig({
         target: 'http://192.168.0.205:3000',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/apiv2/, ''),
-      },
-      '/img': {
-        target: 'http://localhost:5173', 
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/images/, ''),
-      },
+      }
     },
   },
 })
