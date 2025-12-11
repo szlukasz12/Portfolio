@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { persons, addpeople} from "../Api/Person";
+import { persons, addpeople} from "../api/Person";
 import Form from "./Form";
 import { use, useContext, useEffect, useState, type ReactElement } from "react";
 import ButtonShow from "./ButtonShow";
