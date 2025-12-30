@@ -1,9 +1,9 @@
-import { getoneperson, editpeople } from "../Api/Person";
+import { getoneperson, editpeople } from "../api/Person";
 import { useState, useEffect, type ReactElement } from "react";
 import { useUser } from "../../Context/UserContext";
 import { useTranslation } from "react-i18next";
 
-import type { Person } from "../Api/Person";
+import type { Person } from "../api/Person";
 
 type DataPerson = {
   id: number;

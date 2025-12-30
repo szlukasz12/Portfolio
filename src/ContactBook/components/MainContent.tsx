@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { persons, addpeople} from "../Api/Person";
+import { persons, addpeople} from "../api/Person";
 import Form from "./Form";
 import { use, useContext, useEffect, useState, type ReactElement } from "react";
 import ButtonShow from "./ButtonShow";
@@ -8,7 +8,7 @@ import EditContact from "./EditContact";
 import { UserProvider, useUser } from "../../Context/UserContext";
 import { useNavigate } from "react-router-dom";
 
-import type { PersonTab } from "../Api/Person";
+import type { PersonTab } from "../api/Person";
 
 function MainContent() {
   const { t } = useTranslation();

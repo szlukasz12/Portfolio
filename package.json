@@ -8,7 +8,7 @@
     "prebuild:test": "node backup.cjs test",
     "build:test": "vite build --outDir test",
     "prebuild:prod": "node backup.cjs prod",
-    "build:prod": "vite build --outDir prod",
+    "build:prod": "vite build --outDir prod && node move.cjs prod",
     "lint": "eslint .",
     "preview": "vite preview"
   },

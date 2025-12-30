@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link, data } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import Home from "./Home"
-import MainContent from "./ContactBook/Components/MainContent";
+import MainContent from "./ContactBook/components/MainContent";
 import Contact from "./Components/Contact/Contact";
 import Account from "./Components/Account/Account";
 import { useEffect, useState } from "react";

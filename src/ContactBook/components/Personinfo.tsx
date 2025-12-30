@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { useState, type ReactElement } from "react";
-import { removepeople } from "../Api/Person";
+import { removepeople } from "../api/Person";
 import { useUser } from "../../Context/UserContext";
 
 type PersonInfoProps = {
